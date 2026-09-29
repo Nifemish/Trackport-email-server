@@ -1,0 +1,15 @@
+# SMTP credentials (Gmail example — use an App Password, not your normal password)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=your-email@gmail.com
+SMTP_PASS=your-16-char-app-password
+
+# From address shown to recipients
+FROM_EMAIL=your-email@gmail.com
+FROM_NAME=TrackPort
+
+# Server
+PORT=3847
+# Optional: set to restrict who can call the API (leave empty for local dev)
+API_KEY=
